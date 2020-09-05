@@ -1,0 +1,41 @@
+.header__title {
+  background-color: gainsboro;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form {
+  width: 50%;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.column {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+label {
+  padding: 10px;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border-color: gold;
+}
+button {
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+
+  border-color: white;
+}
+
+button:hover {
+  background-color: gold;
+}
+input:hover {
+  background-color: cornsilk;
+}

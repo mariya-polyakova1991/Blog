@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__title">Blog</div>
+    </header>
+    <main>
+      <form>
+        <div class="form">
+          <p class="column">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              required
+              pattern="[A-Z][a-z]+"
+              placeholder="Mary"
+            /><span></span>
+          </p>
+
+          <p class="column">
+            <label for="surname">Surname</label>
+            <input
+              type="text"
+              name="name"
+              id="surname"
+              required
+              pattern="[A-Z][a-z]+"
+              placeholder="Polyakova"
+            /><span></span>
+          </p>
+
+          <p class="column">
+            <label for="sity">Sity</label>
+            <input
+              type="text"
+              name="name"
+              id="sity"
+              required
+              pattern="[A-Z][a-z]+"
+              placeholder="Moscow"
+            /><span></span>
+          </p>
+
+          <p class="column">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="name"
+              id="email"
+              required
+              placeholder="example@post.com"
+            /><span></span>
+          </p>
+
+          <p class="column">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="name"
+              id="password"
+              required
+              placeholder="4 to 10 characters"
+              minlength="4"
+              maxlength="10"
+            /><span></span>
+          </p>
+          <p class="column">
+            <label for="Password1">Re-type Password</label>
+            <input
+              type="password"
+              name="name"
+              id="Password1"
+              required
+              placeholder="4 to 10 characters"
+              minlength="4"
+              maxlength="10"
+            /><span></span>
+          </p>
+          <button type="submit">Submit</button>
+        </div>
+        <footer></footer>
+      </form>
+    </main>
+    <script src="js/variables.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/pagination.js"></script>
+    <script src="js/todoList.js"></script>
+  </body>
+</html>

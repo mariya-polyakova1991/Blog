@@ -1,0 +1,47 @@
+.container {
+  max-width: 1920px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+  outline-color: unset;
+}
+button {
+  cursor: pointer;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(
+    to top right,
+    purple 10%,
+    crimson 30%,
+    orangered 50%,
+    gold 75%
+  );
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: black;
+}
+.header__title {
+  color: #000;
+  background: #fff;
+  mix-blend-mode: lighten;
+}
